@@ -30,10 +30,11 @@ h2 {
 li {
     list-style: none;
     padding-left: 8px;
+    margin-bottom: 20px;
 }
 
 section {
-    background-color: white;ddd
+    background-color: white;
 }
 
 .button {
@@ -55,6 +56,7 @@ section {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 15px 50px;
+    margin-bottom: 3px;
 }
 
 .task-section {
@@ -62,7 +64,6 @@ section {
     border-bottom-right-radius: 10px;
     padding-left: 50px;
     padding-bottom: 25px;
-    margin-top: 3px;
 }
 
 .task-symbol {
@@ -93,4 +94,24 @@ section {
 
 .bg-blue {
     background-color: #47ADF1;
+}
+
+.bg-green {
+    background-color: #64C0A9;
+}
+
+.bg-violet {
+    background-color: #9C72E4;
+}
+
+.bg-orange {
+    background-color: #F29E33;
+}
+
+.bg-purple {
+    background-color: #D863A1;
+}
+
+.bg-lightgreen {
+    background-color: #B0C926;
 }
