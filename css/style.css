@@ -77,8 +77,8 @@ section {
 }
 
 .green-checkmark {
-    border: rgb(0, 255, 0) 1px solid;
-    color: rgb(0, 255, 0);
+    border: #00af3d 1px solid;
+    color: #00af3d;
 }
 
 .red-cross {
