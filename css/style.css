@@ -22,6 +22,15 @@ main {
     margin-top: 50px;
 }
 
+.button {
+    background-color: #47ADF1;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
+
 .logo-word {
     display: inline-block;
     font-size: 2.5rem;
@@ -32,7 +41,7 @@ main {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 15px 50px;
-    background-color: blue;
+    background-color: white;
 }
 
 .task-section {
