@@ -16,7 +16,28 @@ header {
     padding: 10px;
 }
 
+main {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
 .logo-word {
     display: inline-block;
     font-size: 2.5rem;
+    vertical-align: middle;
+}
+
+.button-section {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px 50px;
+    background-color: blue;
+}
+
+.task-section {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px 50px;
+    background-color: red;
 }
