@@ -32,6 +32,10 @@ li {
     padding-left: 8px;
 }
 
+section {
+    background-color: white;ddd
+}
+
 .button {
     background-color: #47ADF1;
     border-radius: 5px;
@@ -51,7 +55,6 @@ li {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 15px 50px;
-    background-color: white;
 }
 
 .task-section {
@@ -59,17 +62,35 @@ li {
     border-bottom-right-radius: 10px;
     padding-left: 50px;
     padding-bottom: 25px;
-    background-color: red;
+    margin-top: 3px;
 }
 
-.checkmark-symbol {
+.task-symbol {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.green-checkmark {
     border: rgb(0, 255, 0) 1px solid;
     color: rgb(0, 255, 0);
-    border-radius: 50%;
 }
 
-.cross-symbol {
+.red-cross {
     border: red 1px solid;
     color: red;
-    border-radius: 50%;
+}
+
+.task-type {
+    border-radius: 15px;
+    color: white;
+    padding: 7px;
+    font-size: 0.7rem;
+}
+
+.bg-blue {
+    background-color: #47ADF1;
 }
