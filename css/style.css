@@ -22,6 +22,16 @@ main {
     margin-top: 50px;
 }
 
+h2 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    padding-left: 8px;
+}
+
 .button {
     background-color: #47ADF1;
     border-radius: 5px;
@@ -47,6 +57,19 @@ main {
 .task-section {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 15px 50px;
+    padding-left: 50px;
+    padding-bottom: 25px;
     background-color: red;
+}
+
+.checkmark-symbol {
+    border: rgb(0, 255, 0) 1px solid;
+    color: rgb(0, 255, 0);
+    border-radius: 50%;
+}
+
+.cross-symbol {
+    border: red 1px solid;
+    color: red;
+    border-radius: 50%;
 }
