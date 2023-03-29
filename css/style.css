@@ -39,11 +39,9 @@ section {
 }
 
 .button {
-    background-color: #47ADF1;
     border-radius: 5px;
     color: white;
     padding: 7px;
-    border: none;
     cursor: pointer;
 }
 
@@ -58,6 +56,18 @@ section {
     border-top-right-radius: 10px;
     padding: 15px 50px;
     margin-bottom: 3px;
+}
+
+.button-blue {
+    color: white;
+    background-color: #47ADF1;
+    border: 1px solid #47ADF1;
+}
+
+.button-white {
+    color: lightgrey;
+    background-color: white;
+    border: 1px solid lightgrey;
 }
 
 .task-section {
